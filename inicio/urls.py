@@ -1,8 +1,7 @@
 from django.urls import path
-from inicio.views import inicio, portal_deportes
+from inicio.views import inicio
 
 
 urlpatterns = [
-    path("inicio/", inicio),
-    path("portal_deportes/<futbol>/<tenis>/<padel>", portal_deportes)
+    path("inicio/", inicio)    
 ]
