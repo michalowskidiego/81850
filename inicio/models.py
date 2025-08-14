@@ -1,3 +1,6 @@
 from django.db import models
 
-# Create your models here.
+class Deportes(models.Model):
+    deporte = models.CharField(max_length=20)
+    edad = models.CharField(max_length=20)
+    indumentaria = models.CharField(max_length=20)
